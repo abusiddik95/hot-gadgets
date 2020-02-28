@@ -1,14 +1,33 @@
 .container{
     margin-bottom: 100px;
 }
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: #b2b2bd;
+    font-weight: 600;
+    padding: 5px 20px;
+}
 #carouselExampleControls{
     margin-top: -100px;
+}
+.carousel{
+    margin-top: -140px;
 }
 .carousel-item{
     padding: 20px 40px;
 }
-.price{
-    color:#ff136f;
+.carousel-indicators li{
+    border-radius: 15px;
+    opacity: 1;
+    border:none;
+    margin-top: 40px;
+    background-color: gray;
+    height: 8px;
+    width: 20px;
+}
+.carousel-indicators .active{
+    background-color: #ffa500;
+    height: 8px;
+    width: 40px;
 }
 .buy-now-button{
     color:#fff;
@@ -22,24 +41,20 @@
     color: orange;
     font-weight: 600;
 }
-.cat1{
-    background-color: orange;
-    padding: 10px 30px;
-    border-radius: 10px;
+.categories .cat-1{
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 80px;
 }
-.cat2{
-    background-color: purple;
-    padding: 10px 30px;
-    border-radius: 10px;
+.categories .cat-2,.categories .cat-3{
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
-.cat3{
-    background-color: blue;
-    padding: 10px 30px;
-    border-radius: 10px;
-}
+
 .categories h2{
     color: #000;
     text-align: center;
+    padding-bottom: 50px;
 }
 .categories h2::after{
     content: "";
@@ -50,9 +65,16 @@
     border-radius: 8px;
     margin: 10px auto;
 }
-
+.categories .row{
+    height:450px;
+}
 .categories img{
     width: 100%;
+}
+.categories .single-categories{
+    margin-bottom: 33px;
+    padding: 45px 60px;
+    box-shadow: 0px 4px 5px 4px #f3eeee;
 }
 .card{
     padding: 35px 40px;
